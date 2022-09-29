@@ -1,0 +1,12 @@
+int x = 10 ;
+int f ;
+if (x == 0){
+    f = 1 ;
+}
+else {
+    f = 1 ;
+    while(x > 0){
+        f = f * x ;
+        x = x - 1 ;
+    }
+}
